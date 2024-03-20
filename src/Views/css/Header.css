@@ -1,0 +1,45 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0088ff;
+  padding: 1px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 10%;
+  margin-right: 10px;
+}
+
+.nav-links {
+  
+  white-space: nowrap;
+  
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+/* Añade un margen superior al cuerpo de la página para compensar el header fijo */
+body {
+  margin-top: 120px; /* Ajusta este valor según el tamaño del header */
+}
